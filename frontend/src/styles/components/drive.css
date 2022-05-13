@@ -1,0 +1,19 @@
+.drive{
+    position: relative;
+    width:80%;
+    min-height:80%;
+}
+
+.add-file{
+    position: absolute;
+    right:0;
+    top:0;
+    width:50px;
+    height:50px;
+}
+
+
+.add-file:hover{
+    cursor: pointer;
+    color:burlywood;
+}

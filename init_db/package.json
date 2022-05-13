@@ -1,0 +1,21 @@
+{
+  "name": "initdb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "initDB.js",
+  "scripts": {
+    "dev": "env-cmd -f ./config/dev.env node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}

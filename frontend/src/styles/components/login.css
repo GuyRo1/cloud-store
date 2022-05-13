@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(50, 47, 47);
+    height: 800px;
+    width:600px;
+    border-radius: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    display: block;
+}
+
+button {
+    display: block;
+}
+
+.link:hover{
+    color:blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

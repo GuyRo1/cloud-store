@@ -8,7 +8,6 @@ app.set('mysqlConnection',mysqlConnection)
 console.log("server has a connection to mysql")
 app.use(usersRouter);
 const port = process.env.PORT
-http.createServer(app).listen(80);
 app.listen(port,
     () =>
         console.log(`Server is listening on port:${port}`));
